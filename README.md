@@ -3,14 +3,18 @@ Welcome to my Fourier Transform Journey!
 
 PURPOSES of program: 
 
--Given 2^m data points, where m is a positive integer, return the DFFT
-  -Store the real, imaginary, and frequency components in respectve files for graphing
+-Given 2^m data points, where m is a positive integer, return the DFFT. Store the real, imaginary, and frequency components in respectve files for graphing
 
--Given 2^m data points, where m is a positive integer, return the Inverse DFFT
-  -Store the inversed data and the associated time-points in respective files
+-Given 2^m data points, where m is a positive integer, return the Inverse DFFT. Store the inversed data and the associated time-points in respective files
 
--Given two data sets where sizeof(dataA) + sizeof(dataB) - 1 is 2^m data points, and m is a positive integer, return the convolution using the DFFT trick
-  -Store the convolution into its respective file
+-Given two data sets where sizeof(dataA) + sizeof(dataB) - 1 is 2^m data points, and m is a positive integer, return the convolution using the DFFT trick. Store the convolution into its respective file
+
+NOTE(S):
+
+-Please change the value for LIMITER to be the amount of data points (2^m)
+-Please change FREQRES to the frequency resolution of the DFFT'd data 
+-Ensure that SIZEF + SIZEG - 1 = 2^m where m is any positive integer
+-If doing a convolution: CONVOLUTION 1 else, CONVOLUTION 0
 
 GOALS and TIMELINE of the project:
 
