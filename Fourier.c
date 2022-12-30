@@ -3,11 +3,6 @@
 * Email: Aarjavjain2674@gmail.com
 */
 
-/*
-  * (POTENTIAL) TO DO!!
-  * Make an FFT for different prime factoring than just 2
-*/
-
 // NOTE: IF DATA IS PERSONALLY ADDED, COMMENT OUT FIRST FUNCTION!
 
 #include <stdlib.h>
