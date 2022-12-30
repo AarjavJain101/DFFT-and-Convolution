@@ -2,6 +2,7 @@
 Welcome to my Fourier Transform Journey!
 
 PURPOSES of program: 
+
 -Given 2^m data points, where m is a positive integer, return the DFFT
   -Store the real, imaginary, and frequency components in respectve files for graphing
 
